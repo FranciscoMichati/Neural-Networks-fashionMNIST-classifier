@@ -14,7 +14,7 @@ from torch.utils.data import DataLoader     ## Dataloader
 import torch.utils.data                     ## Utils
 from torchvision import datasets            ## Datasets (required for download FashionMNIST)
 import torchvision.transforms               ## Transforms 
-from torchvision.transforms import ToTensor ## Convierte una imagen en un tensor de PyTorch, normalizado entre [0,1]
+from torchvision.transforms import ToTensor
 from sklearn.model_selection import KFold   ## Sklearn kfold 
 
 
